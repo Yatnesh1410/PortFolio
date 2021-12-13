@@ -1,0 +1,10 @@
+.footer{
+    display: flex;
+    justify-content : space-evenly;
+    flex: 1;
+    padding: 12px;
+    position: relative;
+    align-items: center;
+    border: 10px solid #f6f6f6;
+    border-radius: 4px;
+}

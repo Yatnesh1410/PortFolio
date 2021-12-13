@@ -1,0 +1,16 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icon{
+    padding: 6px;
+    cursor: pointer;
+    margin: 6px;
+    transition: 0.2s;
+}
+
+.contact-icon:hover{
+    transform:scale(1.05);
+}

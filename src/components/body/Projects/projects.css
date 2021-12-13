@@ -1,0 +1,16 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+
+.github-link{
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.github-link:hover{
+    transform:scale(1.05);
+}

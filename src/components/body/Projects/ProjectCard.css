@@ -1,0 +1,18 @@
+.project-card{
+    padding: 12px;
+    margin: 12px;
+    transition: 0.2s;
+}
+
+.project-card:hover{
+    transform: scale(1.05);
+}
+
+.tech-used:hover{
+    cursor: auto;
+}
+
+.project-links{
+    text-decoration: none;
+}
+
