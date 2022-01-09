@@ -1,6 +1,6 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './ProjectCard.css';
-
+import Aos from 'aos';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -9,8 +9,12 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 function ProjectCard({project}) {
+    useEffect(() => {
+        Aos.init({duration:1000})
+     },[])
+
     return (
-        <div className = "project-card">
+        <div className = "project-card" data-aos="flip-up">
             <Card sx={{ maxWidth: 750}}>
                 <CardMedia
                     component="img"

@@ -1,15 +1,20 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import Aos from 'aos';
 import './contact.css';
 import {SocialData} from './ContactData/ContactData.js';
 
-function contact() {
+function Contact() {
     const data = SocialData;
+
+    useEffect(() => {
+        Aos.init({duration:1000})
+    },[]);
 
     return (
         <div className = "contact">
             {data.map((item) => {
                 return(
-                    <a href = {item.link}>
+                    <a href = {item.link} data-aos="flip-up">
                         <div className = "contact-icon">
                             <img src = {item.icon}/>
                         </div>
@@ -20,4 +25,4 @@ function contact() {
     )
 }
 
-export default contact
+export default Contact

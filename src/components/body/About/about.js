@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 function about() {
     return (
         <div className = "about">
-            <label className = "section-title"> About Me</label>
+            <label className = "section-title">About Me</label>
             <div className = "about-top">
                 <Typewriter
                     options={{

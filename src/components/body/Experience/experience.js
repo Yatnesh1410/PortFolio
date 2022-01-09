@@ -1,10 +1,15 @@
-import React from "react";
+import React,{useEffect} from "react";
+import Aos from 'aos';
 import "./experience.css";
 import companyLogo from "../../../assets/dichroic.png";
 
-function experience() {
+function Experience() {
+  useEffect(() => {
+    Aos.init({duration:1000})
+ },[])
+
   return (
-    <div className="experience">
+    <div className="experience" data-aos="flip-up">
       <label className="section-title">Experience</label>
       <div className="experience-content">
         <div className="experience-top">
@@ -45,4 +50,4 @@ function experience() {
   );
 }
 
-export default experience;
+export default Experience;
