@@ -30,7 +30,7 @@ function SkillsCard({group}) {
                                     return(
                                         <ListItem>
                                             <ListItemAvatar>
-                                                <Avatar src={item.image} />
+                                                <Avatar src={item.image}/>
                                             </ListItemAvatar>
 
                                             <ListItemText>

@@ -10,19 +10,19 @@ function Web_Menu() {
     return (
         <div className = "web">
             <div className = "web-options">
-                <a href="/#about"><FeedIcon className = "option-icon"/> About</a>
+                <a href="/#about-container"><FeedIcon className = "option-icon"/> About</a>
             </div>
             <div className = "web-options">
-                <a href="/#skills"><LaptopMacIcon className = "option-icon" /> Skills</a>
+                <a href="/#skills-container"><LaptopMacIcon className = "option-icon" /> Skills</a>
             </div>
             <div className = "web-options">
-                <a href="/#experience"><WorkIcon className = "option-icon" /> Experience</a>
+                <a href="/#experience-container"><WorkIcon className = "option-icon" /> Experience</a>
             </div>
             <div className = "web-options">
-                <a href="/#projects"><AccountTreeIcon className = "option-icon" /> Projects</a>    
+                <a href="/#projects-container"><AccountTreeIcon className = "option-icon" /> Projects</a>    
             </div>
             <div className = "web-options">
-                <a href="/#contact"><ContactPageIcon className = "option-icon" /> Contact</a>
+                <a href="/#contact-container"><ContactPageIcon className = "option-icon" /> Contact</a>
             </div>
         </div>
     )
