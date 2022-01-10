@@ -5,18 +5,20 @@ import {SocialData} from './ContactData/ContactData.js';
 
 function Contact() {
     const data = SocialData;
-
+    
     useEffect(() => {
         Aos.init({duration:1000})
     },[]);
 
+    
+    
     return (
         <div className = "contact">
             {data.map((item) => {
                 return(
-                    <a href = {item.link}>
+                    <a href = {item.link} data-aos="flip-up">
                         <div className = "contact-icon">
-                            <img src={item.image} alt=""/>
+                            <img src={item.icon} alt=""/>
                         </div>
                     </a>
                 );

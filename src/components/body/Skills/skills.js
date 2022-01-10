@@ -10,7 +10,8 @@ function Skills() {
     const data = SkillsData;
 
     useEffect(() => {
-        Aos.init({duration:1000})
+        Aos.init({duration:1000});
+        console.log(data);
      },[])
 
     return (

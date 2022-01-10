@@ -1,4 +1,4 @@
-export const SkillsData = [
+export let SkillsData = [
     {
         id: 1,
         items: [
@@ -7,12 +7,12 @@ export const SkillsData = [
                 skills: [
                     {
                         skill: "C++",
-                        image: require('../../../../assets/c++.png').default,
+                        image: require('../../../../assets/c++.png'),
                     },
         
                     {
                         skill: "JavaScript",
-                        image: require('../../../../assets/javascript.png').default,
+                        image: require('../../../../assets/javascript.png'),
                     }
                 ],
             },
@@ -22,22 +22,22 @@ export const SkillsData = [
                 skills: [
                     {
                         skill: "Data Structures and Algorithms",
-                        image: require('../../../../assets/dsa.png').default,
+                        image: require('../../../../assets/dsa.png'),
                     },
         
                     {
                         skill: "Object Oriented Programming",
-                        image: require('../../../../assets/oops.png').default,
+                        image: require('../../../../assets/oops.png'),
                     },
         
                     {
                         skill: "Operating system",
-                        image: require('../../../../assets/os.png').default,
+                        image: require('../../../../assets/os.png'),
                     },
         
                     {
                         skill: "DataBase Management",
-                        image: require('../../../../assets/dbms.png').default,
+                        image: require('../../../../assets/dbms.png'),
                     },
                 ],
             },
@@ -52,27 +52,27 @@ export const SkillsData = [
                 skills: [
                     {
                         skill: "HTML",
-                        image: require('../../../../assets/html5.png').default,
+                        image: require('../../../../assets/html5.png'),
                     },
         
                     {
                         skill: "CSS",
-                        image: require('../../../../assets/css3.png').default,
+                        image: require('../../../../assets/css3.png'),
                     },
         
                     {
                         skill: "ReactJS",
-                        image: require('../../../../assets/react.png').default,
+                        image: require('../../../../assets/react.png'),
                     },
         
                     {
                         skill: "Bootstrap",
-                        image: require('../../../../assets/bootstrap.png').default,
+                        image: require('../../../../assets/bootstrap.png'),
                     },
 
                     {
                         skill: "Material-UI",
-                        image: require('../../../../assets/material-ui-1.png').default,
+                        image: require('../../../../assets/material-ui-1.png'),
                     },
                 ],
             },
@@ -82,12 +82,12 @@ export const SkillsData = [
                 skills: [
                     {
                         skill: "NodeJS",
-                        image: require('../../../../assets/nodejs.png').default,
+                        image: require('../../../../assets/nodejs.png'),
                     },
         
                     {
                         skill: "ExpressJS",
-                        image: require('../../../../assets/express.png').default,
+                        image: require('../../../../assets/express.png'),
                     },
                 ],
             },
@@ -102,12 +102,12 @@ export const SkillsData = [
                 skills: [
                     {
                         skill: "SQL",
-                        image: require('../../../../assets/mysql.png').default,
+                        image: require('../../../../assets/mysql.png'),
                     },
         
                     {
                         skill: "MongoDB",
-                        image: require('../../../../assets/mongodb.png').default,
+                        image: require('../../../../assets/mongodb.png'),
                     },
                 ],
             },
@@ -117,12 +117,12 @@ export const SkillsData = [
                 skills: [
                     {
                         skill: "Heroku",
-                        image: require('../../../../assets/heroku.png').default,
+                        image: require('../../../../assets/heroku.png'),
                     },
         
                     {
                         skill: "Netlify",
-                        image: require('../../../../assets/netlify.png').default,
+                        image: require('../../../../assets/netlify.png'),
                     },
                 ],
             },

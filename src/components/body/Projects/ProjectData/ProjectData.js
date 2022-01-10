@@ -6,7 +6,7 @@ export const ProjectData = [
         link: "https://serene-anchorage-88646.herokuapp.com/",
         code: "https://github.com/Yatnesh1410/YelpCamp",
         tags: ["NodeJS" , "ExpressJS" , "MongoDB", "Heroku"],
-        image: require("../../../../assets/yelpcamp.png").default,
+        image: require("../../../../assets/yelpcamp.png"),
     },
 
     {
@@ -16,7 +16,7 @@ export const ProjectData = [
         link: "https://covid-wordwide-stats.netlify.app/",
         code: "https://github.com/Yatnesh1410/Covid_19-Tracker",
         tags: ["ReactJS","REST API", "Netlify"],
-        image: require("../../../../assets/covidtracker.jpeg").default,
+        image: require("../../../../assets/covidtracker.jpeg"),
     },
 
     {
@@ -26,6 +26,6 @@ export const ProjectData = [
         link: "https://chessforpractice.netlify.app/",
         code: "https://github.com/Yatnesh1410/ChessGame",
         tags: ["ReactJS" , "Netlify"],
-        image: require("../../../../assets/chess.png").default,
+        image: require("../../../../assets/chess.png"),
     }
 ];

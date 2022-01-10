@@ -11,6 +11,7 @@ import Avatar from '@mui/material/Avatar';
 import Aos from 'aos';
 
 function SkillsCard({group}) {
+    
     useEffect(() => {
         Aos.init({duration:1000})
      },[])
