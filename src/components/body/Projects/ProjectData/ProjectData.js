@@ -21,6 +21,16 @@ export const ProjectData = [
 
     {
         id: 3,
+        name: "Expense Tracker",
+        details: "A simple React App which can help to maintain a record of our expenses on different budgets. We can add or remove budget section according to our convinience.",
+        link: "https://simple-expense-tracker-by-me.netlify.app/",
+        code: "https://github.com/Yatnesh1410/ExpenseTracker",
+        tags: ["ReactJs" , "React-Bootstrap" , "Netlify"],
+        image: require("../../../../assets/expense-tracker.png"),
+    },
+
+    {
+        id: 4,
         name: "Single Player Chess Game",
         details: "A chess game which can be used for practice. A single player can play as black and white both as the board flips after each turn.",
         link: "https://chessforpractice.netlify.app/",
