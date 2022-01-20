@@ -39,8 +39,8 @@ function ProjectCard({project}) {
                     })} 
                 </CardContent>
                 <CardActions>
-                    <a href = {project.link} className = "project-links"><Button size="small">Demo</Button></a>
-                    <a href = {project.code} className = "project-links"><Button size="small">GitHub</Button></a>
+                    <a href = {project.link} className = "project-links" target='_blank'><Button size="small">Demo</Button></a>
+                    <a href = {project.code} className = "project-links" target='_blank'><Button size="small">GitHub</Button></a>
                 </CardActions>
             </Card>
         </div>

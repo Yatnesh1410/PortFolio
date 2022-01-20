@@ -16,7 +16,7 @@ function projects() {
                 );
             })}
 
-            <a href = "https://github.com/Yatnesh1410" className = "github-link"><Button variant="contained" className="button">View More</Button></a>
+            <a href = "https://github.com/Yatnesh1410" className = "github-link" target='_blank'><Button variant="contained" className="button">View More</Button></a>
         </div>
     )
 }

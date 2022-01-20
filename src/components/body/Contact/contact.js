@@ -16,7 +16,7 @@ function Contact() {
         <div className = "contact">
             {data.map((item) => {
                 return(
-                    <a href = {item.link} data-aos="flip-up">
+                    <a href = {item.link} data-aos="flip-up" target='_blank'>
                         <div className = "contact-icon">
                             <img src={item.icon} alt=""/>
                         </div>
