@@ -93,3 +93,12 @@
         height:200px;
     }
 }
+
+.resume-link{
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.resume-link:hover{
+    transform:scale(1.05);
+}
