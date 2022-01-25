@@ -16,19 +16,19 @@ function Mobile_Menu({ isOpen, setIsOpen } ) {
 
             <div className = "mobile-options">
                 <div className = "mobile-option" onClick = {() => setIsOpen(!isOpen)}>
-                    <a href="#about"><FeedIcon className = "option-icon"/> About</a>
+                    <a href="#about-container"><FeedIcon className = "option-icon"/> About</a>
                 </div>
                 <div className = "mobile-option" onClick = {() => setIsOpen(!isOpen)}>
-                    <a href="#skills"><LaptopMacIcon className = "option-icon" /> Skills</a>
+                    <a href="#skills-container"><LaptopMacIcon className = "option-icon" /> Skills</a>
                 </div>
                 <div className = "mobile-option" onClick = {() => setIsOpen(!isOpen)}>
-                    <a href="#experience"><WorkIcon className = "option-icon" /> Experience</a>
+                    <a href="#experience-container"><WorkIcon className = "option-icon" /> Experience</a>
                 </div>
                 <div className = "mobile-option" onClick = {() => setIsOpen(!isOpen)}>
-                    <a href="#projects"><AccountTreeIcon className = "option-icon" /> Projects</a>    
+                    <a href="#projects-container"><AccountTreeIcon className = "option-icon" /> Projects</a>    
                 </div>
                 <div className = "mobile-option" onClick = {() => setIsOpen(!isOpen)}>
-                    <a href="#contact"><ContactPageIcon className = "option-icon" /> Contact</a>
+                    <a href="#contact-container"><ContactPageIcon className = "option-icon" /> Contact</a>
                 </div>
             </div>
         </div>
