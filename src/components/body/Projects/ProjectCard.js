@@ -15,10 +15,11 @@ function ProjectCard({project}) {
 
     return (
         <div className = "project-card" data-aos="flip-up">
-            <Card sx={{ maxWidth: 750}}>
+            <Card sx={{ maxWidth: 600, minHeight:450}}>
                 <CardMedia
                     component="img"
-                    height="300"
+                    width="200"
+                    height="200"
                     image={project.image}
                 />
                 <CardContent>
