@@ -18,7 +18,7 @@ export let SkillsData = [
             },
         
             {
-                name: "Technologies",
+                name: "Fundamentals",
                 skills: [
                     {
                         skill: "Data Structures and Algorithms",
@@ -38,6 +38,16 @@ export let SkillsData = [
                     {
                         skill: "DataBase Management",
                         image: require('../../../../assets/dbms.png'),
+                    },
+                ],
+            },
+
+            {
+                name: "Code Editor",
+                skills: [
+                    {
+                        skill: "VS Code",
+                        image: require('../../../../assets/vscode.png'),
                     },
                 ],
             },
@@ -74,9 +84,34 @@ export let SkillsData = [
                         skill: "Material-UI",
                         image: require('../../../../assets/material-ui-1.png'),
                     },
+
+                    {
+                        skill: "Tailwind-CSS",
+                        image: require('../../../../assets/tailwindcss.png')
+                    }
+                ],    
+            },
+
+            {
+                name: "Tools/Techologies",
+                skills: [
+                    {
+                        skill: "Git",
+                        image: require('../../../../assets/github.png'),
+                    },
+
+                    {
+                        skill: "Postman",
+                        image: require('../../../../assets/postman.png'),
+                    },
                 ],
             },
-            
+        ]
+    },
+
+    {
+        id: 3,
+        items:[
             {
                 name: "Backend Development Skills",
                 skills: [
@@ -91,12 +126,6 @@ export let SkillsData = [
                     },
                 ],
             },
-        ]
-    },
-
-    {
-        id: 3,
-        items:[
             {
                 name: "Database Management",
                 skills: [
@@ -116,13 +145,13 @@ export let SkillsData = [
                 name: "Hosting Platforms",
                 skills: [
                     {
-                        skill: "Heroku",
-                        image: require('../../../../assets/heroku.png'),
-                    },
-        
-                    {
                         skill: "Netlify",
                         image: require('../../../../assets/netlify.png'),
+                    },
+
+                    {
+                        skill: "Heroku",
+                        image: require('../../../../assets/heroku.png'),
                     },
                 ],
             },
