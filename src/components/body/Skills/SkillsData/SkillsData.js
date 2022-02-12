@@ -41,16 +41,6 @@ export let SkillsData = [
                     },
                 ],
             },
-
-            {
-                name: "Code Editor",
-                skills: [
-                    {
-                        skill: "VS Code",
-                        image: require('../../../../assets/vscode.png'),
-                    },
-                ],
-            },
         ],
     },
 
@@ -93,26 +83,6 @@ export let SkillsData = [
             },
 
             {
-                name: "Tools/Techologies",
-                skills: [
-                    {
-                        skill: "Git",
-                        image: require('../../../../assets/github.png'),
-                    },
-
-                    {
-                        skill: "Postman",
-                        image: require('../../../../assets/postman.png'),
-                    },
-                ],
-            },
-        ]
-    },
-
-    {
-        id: 3,
-        items:[
-            {
                 name: "Backend Development Skills",
                 skills: [
                     {
@@ -126,6 +96,13 @@ export let SkillsData = [
                     },
                 ],
             },
+            
+        ]
+    },
+
+    {
+        id: 3,
+        items:[
             {
                 name: "Database Management",
                 skills: [
@@ -152,6 +129,21 @@ export let SkillsData = [
                     {
                         skill: "Heroku",
                         image: require('../../../../assets/heroku.png'),
+                    },
+                ],
+            },
+
+            {
+                name: "Tools/Techologies",
+                skills: [
+                    {
+                        skill: "Git",
+                        image: require('../../../../assets/github.png'),
+                    },
+
+                    {
+                        skill: "Postman",
+                        image: require('../../../../assets/postman.png'),
                     },
                 ],
             },
