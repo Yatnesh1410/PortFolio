@@ -1,8 +1,6 @@
 .experience{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .experience-content{
@@ -10,7 +8,6 @@
     background: #f6f6f6;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 12px;
     border: 10px solid #f6f6f6;
