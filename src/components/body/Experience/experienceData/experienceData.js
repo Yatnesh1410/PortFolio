@@ -5,8 +5,8 @@ export let experienceData = [
     duration: "February 2022 - June 2022",
     exposure: "Full Stack Development",
     technologiesUsed: "ReactJS , Spring Boot , Retool.",
-    description: ["Worked in a GST forms team responsible for all types of GST returns forms, such as GSTR1, GSTR3b, GSTR9 etc.",
-                  "Worked on both the frontend and backend side of product to improve overall user experience by introducing new features and fixing bugs",
+    description: ["Worked in a GST forms team responsible for all types of GST returns forms, such as GSTR1, GSTR3B, GSTR9 etc.",
+                  "Worked on both the frontend and backend side of product to improve overall user experience by introducing new features and fixing bugs.",
                   "Also developed various internal tools for the team using Retool."],
   },
   {
