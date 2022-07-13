@@ -9,7 +9,7 @@ function Experience() {
   }, []);
 
   return (
-    <div className="experience" data-aos="flip-up">
+    <div className="experience">
       <label className="section-title">Experience</label>
       {experienceData.map((experience) => {
         return (

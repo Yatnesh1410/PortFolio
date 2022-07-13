@@ -12,7 +12,7 @@ function about() {
         <Typewriter
           options={{
             strings: [
-              "AN UNDERGRAD",
+              "A GRADUATE",
               "A PROGRAMMER",
               "A WEB-DEVELOPER",
               "A SOFTWARE ENTHUSIAST",
