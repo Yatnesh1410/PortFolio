@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
     return (
         <div className = "footer">
-            Copyright 2022 @ Yatnesh Gyani
+            Copyright {new Date().getFullYear()} @ Yatnesh Gyani
         </div>
     )
 }
