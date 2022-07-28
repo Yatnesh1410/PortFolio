@@ -31,7 +31,7 @@ function about() {
           <p className="about-info">
             <span className="name">YATNESH GYANI</span>
             <br />
-            UnderGraduate at Indian Institute of Technology (BHU) , Varanasi.
+            Graduate from Indian Institute of Technology (BHU) , Varanasi.
             <br />
             Skilled in C/C++, Data Structures and Algorithms.
             <br />
