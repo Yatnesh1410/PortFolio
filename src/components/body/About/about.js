@@ -12,7 +12,6 @@ function about() {
         <Typewriter
           options={{
             strings: [
-              "A GRADUATE",
               "A PROGRAMMER",
               "A WEB-DEVELOPER",
               "A SOFTWARE ENTHUSIAST",
@@ -23,25 +22,17 @@ function about() {
         />
       </div>
       <div className="about-middle">
-        <span>
           <img src={Picture} className="about-photo" />
-        </span>
-
-        <span>
           <p className="about-info">
             <span className="name">YATNESH GYANI</span>
-            <br />
-            Graduate from Indian Institute of Technology (BHU) , Varanasi.
-            <br />
-            Skilled in C/C++, Data Structures and Algorithms.
-            <br />
-            Always eager to learn more about various technologies.
-            <br />
-            "Whatever the mind of man can conceive and believe, it can achieve."
-            <br />- A thought that I believe in and it keeps me motivated to do
-            better.
+            <br/>
+            <span>
+              I am a software developer with over 2 years of experience in the industry.
+              I graduated from IIT BHU in 2022 and have had the opportunity to work with prominent organizations such as Deutsche Bank and ClearTax.
+              My experience spans across various projects and technologies, enabling me to develop a solid foundation in software development and problem-solving in fast-paced environments.
+              I believe that with dedication and a passion for learning, there's no limit to what we can achieve.
+            </span>
           </p>
-        </span>
       </div>
 
       <div className="about-bottom">

@@ -19,11 +19,6 @@ export let SkillsData = [
             skill: "TypeScript",
             image: require("../../../../assets/typescript.png"),
           },
-
-          {
-            skill: "Java",
-            image: require("../../../../assets/java.png"),
-          }
         ],
       },
 
@@ -113,26 +108,31 @@ export let SkillsData = [
     id: 3,
     items: [
       {
-        name: "Database Management",
-        skills: [
-          {
-            skill: "SQL",
-            image: require("../../../../assets/mysql.png"),
-          },
-
-          {
-            skill: "MongoDB",
-            image: require("../../../../assets/mongodb.png"),
-          },
-        ],
-      },
-
-      {
         name: "Tools/Techologies",
         skills: [
           {
-            skill: "Git",
+            skill: "Google Cloud Platform",
+            image: require("../../../../assets/gcp.png"),
+          },
+
+          {
+            skill: "GitHub",
             image: require("../../../../assets/github.png"),
+          },
+
+          {
+            skill: "Terraform",
+            image: require("../../../../assets/terraform.png"),
+          },
+
+          {
+            skill: "Apache Airflow",
+            image: require("../../../../assets/airflow.png"),
+          },
+
+          {
+            skill: "Blue Prism",
+            image: require("../../../../assets/blueprism.png"),
           },
 
           {
@@ -146,18 +146,18 @@ export let SkillsData = [
           },
         ],
       },
-
+      
       {
-        name: "Hosting Platforms",
+        name: "Database Management",
         skills: [
           {
-            skill: "Netlify",
-            image: require("../../../../assets/netlify.png"),
+            skill: "SQL",
+            image: require("../../../../assets/mysql.png"),
           },
 
           {
-            skill: "Heroku",
-            image: require("../../../../assets/heroku.png"),
+            skill: "MongoDB",
+            image: require("../../../../assets/mongodb.png"),
           },
         ],
       },

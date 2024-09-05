@@ -1,5 +1,18 @@
 export let experienceData = [
   {
+    image: require("../../../../assets/db.png"),
+    role: "Software Developer",
+    duration: "July 2022 - Present",
+    exposure: "Full Stack Development",
+    technologiesUsed: "GCP, Terraform, Apache Airflow, BluePrism, GitHub Workflows, Angular",
+    description: ["Engineered and implemented ETL pipelines using Apache Airflow on Google Cloud Platform (GCP) achieving a significant 83% reduction in processing time (from 3 minutes to 50 seconds) and improving data integrity.", 
+                  "Implemented Infrastructure as Code (IaC) within the project, leveraging modular Terraform configurations to orchestrate and maintain Google Cloud Platform (GCP) resources.",
+                  "Deployed automated bots using Blue Prism to streamline integration and facilitate data extraction across various applications, achieving a 40% reduction in processing time and enhancing operational efficiency.",
+                  "Optimized CI/CD workflows by 2500 lines through strategic GitHub Workflow enhancements, accelerating deployment cycles and ensuring software reliability.",
+                  "Transformed the user interface of the alert raising application (WebRequest) from JSP to Angular, incorporating advanced search and filtering functionalities to enhance user experience and performance.",
+                  ],
+  },
+  {
     image: require("../../../../assets/clear.jpg"),
     role: "Software Development Intern",
     duration: "February 2022 - June 2022",
